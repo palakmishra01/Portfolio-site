@@ -89,7 +89,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-[#0B1D2A]/90 backdrop-blur-md z-50 border-b border-[#C99700]">
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <a href="https://drive.google.com/file/d/1sV_vrGFhh7qf1zDpssEOWWbVqDHKtAy1/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold transition-colors hover:text-[#E6C068]" style={{color: '#D4AF37'}}>
+            <a href="https://drive.google.com/file/d/1_XIc0rD0VyvYAMTQdhw0ZTxKYgGOerLr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold transition-colors hover:text-[#E6C068]" style={{color: '#D4AF37'}}>
               Resume
             </a>
             
