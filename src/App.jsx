@@ -40,10 +40,10 @@ export default function Portfolio() {
       highlights: ["Lightweight versioning", "Linked-list based diffs", "No external VCS needed"]
     },
     {
-      title: "AI Sleep Breathing Irregularity Detection",
-      description: "AI-driven system for detecting sleep breathing abnormalities from overnight physiological time-series signals using signal processing and deep learning.",      tech: ["Python", "CNN", "Signal Processing"],
-      github: "https://github.com/palakmishra01/SRIP_health",
-      highlights: ["Signal filtering and windowed time-series sample generation", "CNN-based classification of sleep breathing abnormalities", "81.63% accuracy with subject-independent validation"]
+      title: "Autonomous Code Review Agent",
+      description: "AI agent that autonomously reviews GitHub Pull Requests and posts structured feedback.",      tech: ["Python", "GitHub Actions", "PyGithub"],
+      github: "https://github.com/palakmishra01/coder-ji",
+      highlights: ["automating end-to-end PR review", "Providing actionable structured feedback on every pull request"]
     },
     {
       title: "MONEFY",
@@ -70,17 +70,18 @@ export default function Portfolio() {
   ];
 
   const achievements = [
+    { icon: "💻", text: "Product Manager", highlight: "Hacksprint" },
     { icon: "🏆", text: "99.74%ile in JEE Mains 2024", highlight: "Top 3% JEE Advanced 2024" },
-    { icon: "📊", text: "Leetcode", highlight: " Solved 400+ problems with a daily streak of 250+ days" },
-    { icon: "💻", text: "Leetcode", highlight: "Peak Rating: 1530" },
-    { icon: "🎯", text: "AlgoUniversity Tech Fellowship", highlight: "Top 8% Nationwide" }
+    { icon: "📊", text: "Leetcode", highlight: " Solved 600+ problems" },
+    { icon: "🎯", text: "Open Source", highlight: "GSSoC '26 Contributor" }
     
   ];
 
   const skills = {
-    "Languages": ["C/C++", "Python", "JavaScript", "LaTeX"],
-    "Web Dev": ["React", "HTML", "CSS", "REST APIs"],
-    "Tools": ["Git", "VS Code", "Visual Studio", "Figma"]
+    "Languages": ["C/C++", "Python", "JavaScript", "LaTeX", "SQL"],
+    "CS fundamentals" : ["Data Structures & Algorithms", "OOP", "Operating Systems", "Computer Networks", "DBMS"],
+    "Tools": ["Git", "VS Code", "Visual Studio", "Figma"],
+    "Frameworks & Libraries": ["Pandas", "Numpy", "Matplotlib", "PyTorch", "scikit-learn","React", "HTML", "CSS", "REST APIs"],
   };
 
   return (
@@ -89,7 +90,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-[#0B1D2A]/90 backdrop-blur-md z-50 border-b border-[#C99700]">
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <a href="https://drive.google.com/file/d/1_XIc0rD0VyvYAMTQdhw0ZTxKYgGOerLr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold transition-colors hover:text-[#E6C068]" style={{color: '#D4AF37'}}>
+            <a href="https://drive.google.com/file/d/177cwVN1Qz1yJ8xcQPw5Eu2bJ-ogSf9Tt/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-lg sm:text-xl font-bold transition-colors hover:text-[#E6C068]" style={{color: '#D4AF37'}}>
               Resume
             </a>
             
@@ -143,7 +144,7 @@ export default function Portfolio() {
               Palak Mishra
             </h1>
             {/* <p className="text-lg sm:text-2xl text-amber-300 mb-2">B24EE1050</p> */}
-            <p className="text-base sm:text-lg text-gray-400">Sophomore</p>
+            <p className="text-base sm:text-lg text-gray-400">Pre Final Year</p>
             <p className="text-base sm:text-lg text-gray-400">Indian Institute of Technology, IIT Jodhpur</p>
           </div>
           
@@ -186,7 +187,7 @@ export default function Portfolio() {
             <div className="bg-[#003D66]/50 backdrop-blur-sm rounded-xl p-5 sm:p-8 border-2 border-[#C99700]">
               <h3 className="text-xl sm:text-2xl font-bold mb-4" style={{color: '#D4AF37'}}>Background</h3>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-4">
-                Second year B.Tech, pursuing Electrical Engineering at IIT Jodhpur.{/*with a CGPA of 7.79.*/ }
+                Third year B.Tech, pursuing Electrical Engineering at IIT Jodhpur with a CGPA of 8.54.
                 
               </p>
               <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
